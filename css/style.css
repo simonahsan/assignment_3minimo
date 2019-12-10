@@ -1,0 +1,69 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 20px 0;
+}
+
+
+.wrapper{
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.logo{
+	width: 15%;
+	/*border: 1px solid green;*/
+	float:left;
+}
+.logo img
+{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid green;*/
+	float:right;
+	margin-top: 7px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	transition: .5s;
+	padding: 0 50px;
+}
+.menu ul li :last child a{
+	padding-right: 0;
+}
+.menu ul li a: hover{
+	color: #000000;
+}
+/*header end*/
+
+/*banner start*/
+
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
